@@ -1,6 +1,6 @@
 # guess-game
-A guessing game @ OpenLabs
+A guessing game developed  @ OpenLabs
 
-How to use
+# How to use
 First clone this project to your system
 Open terminal and run 
