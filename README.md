@@ -1,6 +1,7 @@
 # guess-game
 A guessing game developed  @ OpenLabs
 
-# How to use
+# How to run 
 First clone this project to your system
-Open terminal and run 
+Open terminal  
+run ```python program.py``` 
