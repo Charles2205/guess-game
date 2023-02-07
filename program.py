@@ -8,14 +8,14 @@ def determine_user_option(user_option):
     if user_option ==1:
         pass
     elif user_option ==2:
-            about_game
+            about_game()
     elif user_option ==3:
         exit_app()
     else:
         pass
 
 def exit_app():
-    print("Thanks for using our app")
+    print("Thanks for using our app😁")
     exit()
 
 def about_game():
@@ -25,3 +25,5 @@ def about_game():
 def invalid_option():
     print(RED,'Invalid Option!!Please try again')
     welcome_screen()
+
+welcome_screen()
