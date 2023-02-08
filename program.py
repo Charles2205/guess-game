@@ -52,7 +52,8 @@ def start_game(user_level,user_attempt):
     generated_number = generate_random_number(user_level)
 
     for trial in range(user_attempt):
-        user_guess=int(input('\nYou have 2 guess in this difficulty...\nGuess a number: '))
+        print(GREEN,f'{user_attempt}')
+        user_guess=int(input('Guess a number: '))
         if user_guess == generated_number:
             print(GREEN ,'Hurray!! You guess right.👏🎊')
             break
