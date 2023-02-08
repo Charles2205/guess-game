@@ -1,12 +1,12 @@
 from colors import GREEN,RED,WHITE,YELLOW
 def welcome_screen():
     print(YELLOW,'*** WELCOME TO GAME GUESSER ***' )
-    user_input = int(input(WHITE+'1. Start Game \n2. About Game Guesser \n3. Exit Application \n\n Choose any valid option: ' ))
+    user_input = int(input(WHITE+'1. Start Game \n2. About Game Guesser \n3. Exit Application \n\nChoose any valid option: ' ))
     determine_user_option(user_input)
 
 def determine_user_option(user_option):
     if user_option ==1:
-        pass
+        difficulty()
     elif user_option ==2:
             about_game()
     elif user_option ==3:
@@ -29,7 +29,7 @@ def invalid_option():
 
 def difficulty():
     print(YELLOW,'*** Choose Level ***')
-    user_response=int(input(WHITE,'1. Beginner (1-10)\n 2. Intermediate (1-100)\n 3. Hard (1-1500)\n\n4. Back to menu'))
+    user_response=int(input(WHITE+' 1.Beginner (1-10)\n 2.Intermediate (1-100)\n 3.Hard (1-1500)\n\n 4.Back to menu\n'))
     validate_user_response(user_response)
 
 def validate_user_response(user_response):
