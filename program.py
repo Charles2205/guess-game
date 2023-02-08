@@ -12,7 +12,7 @@ def determine_user_option(user_option):
     elif user_option ==3:
         exit_app()
     else:
-        pass
+        invalid_option()
 
 def exit_app():
     print("Thanks for using our app😁")
@@ -25,5 +25,12 @@ def about_game():
 def invalid_option():
     print(RED,'Invalid Option!!Please try again')
     welcome_screen()
+
+
+def difficulty():
+    print(YELLOW,'*** Choose Level ***')
+    input(WHITE,'1. Beginner (1-10) \n 2. Intermediat(1-100 \n 3. Hard(1-1500)\n 4. Back to menu')
+
+
 
 welcome_screen()
