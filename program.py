@@ -29,7 +29,20 @@ def invalid_option():
 
 def difficulty():
     print(YELLOW,'*** Choose Level ***')
-    input(WHITE,'1. Beginner (1-10) \n 2. Intermediat(1-100 \n 3. Hard(1-1500)\n 4. Back to menu')
+    user_response=int(input(WHITE,'1. Beginner (1-10)\n 2. Intermediate (1-100)\n 3. Hard (1-1500)\n\n4. Back to menu'))
+    validate_user_response(user_response)
+
+def validate_user_response(user_response):
+    if user_response ==1:
+        pass
+    elif user_response ==2:
+        pass
+    elif user_response ==3:
+        pass
+    elif user_response ==4:
+        pass
+    else:
+         invalid_option()
 
 
 
