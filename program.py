@@ -61,7 +61,7 @@ def start_game(user_level,user_attempt):
             print(RED,'You guessed Too high.Try again😒')
         elif user_guess < generated_number:        
             print(RED,'Sorry guess too low.Try again.😒')
-
+        
 
 
 
